@@ -1,5 +1,5 @@
 
-/home/nzamora/documents/rtos-cortex-m4/out/debug/rtos-cortex-m4.elf:     file format elf32-littlearm
+C:/Users/nzamsci/Documents/TM4C129_Microcontroller/out/debug/rtos-cortex-m4.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn

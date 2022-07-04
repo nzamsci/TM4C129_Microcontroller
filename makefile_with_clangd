@@ -17,6 +17,9 @@ DEBUG_DIR := $(OUT_DIR)/debug
 OUT_ELF_FILE := $(DEBUG_DIR)/$(PROJ_NAME).elf
 OUT_BIN_FILE := $(BIN_DIR)/$(PROJ_NAME).bin
 
+# function to find all file extensions in each subdirectory 
+rwildcard=$(wildcard $1$2) $(foreach d,$(wildcard $1*),$(call rwildcard,$d/,$2))
+
 # gather source and include files
 SRC_FILES := $(call rwildcard,boot/,*.c)
 SRC_FILES += $(call rwildcard,drivers/,*.c)

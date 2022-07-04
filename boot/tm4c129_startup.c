@@ -4,7 +4,7 @@
 extern int main();
 
 // address of top of stack
-#define	STACK_TOP 0x2003FFFF	// todo for some reason cannot
+#define	STACK_TOP 0x2003FFFF
 
 // linker-defined symbols
 extern uint32_t _etext;		// address of the end of .text section
